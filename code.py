@@ -5,4 +5,5 @@ import pandas as pd
 from torch.utils.data.dataloader import dataloader
 from torch.utils.data import Dataset
 
-torchvision.datasets.Flowers102(root: Union[str, Path], split: str = 'train', transform: Optional[Callable] = None, target_transform: Optional[Callable] = None, download: bool = False)
+flowers_102 = torchvision.datasets.Flowers102(root: Union[str, Path], split: str = 'train', transform: Optional[Callable] = None, target_transform: Optional[Callable] = None, download: bool = False)
+print(flowers_102)
